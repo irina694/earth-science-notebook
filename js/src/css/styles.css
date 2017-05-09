@@ -1,0 +1,48 @@
+.geonotebook#ipython-main-app {
+    float: left;
+    overflow-y: scroll;
+}
+
+.geonotebook#notebook-container {
+    width: calc(100% - 15px);
+    margin-left: 15px;
+    padding: 0px;
+}
+
+#geonotebook-panel {
+    padding: 0px;
+    float: right;
+    height: 100%;
+}
+
+#geonotebook-map {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.geonotebook.container {
+    margin-left: 20px;
+}
+
+.geonotebook#maintoolbar-container {
+    margin-left: 0px;
+}
+
+.gutter {
+    background-color: #999;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 100%;
+    float: left;
+}
+
+.gutter.gutter-horizontal {
+    cursor: ew-resize;
+    background-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+}
+
+.gutter.gutter-vertical {
+    cursor: ns-resize;
+    background-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAFAQMAAABo7865AAAABlBMVEVHcEzMzMzyAv2sAAAAAXRSTlMAQObYZgAAABBJREFUeF5jOAMEEAIEEFwAn3kMwcB6I2AAAAAASUVORK5CYII=');
+}
