@@ -1,0 +1,34 @@
+actionid: py27
+msg: getenv
+cmdargs: ['/Users/ipatrikeeva/anaconda/bin/python', '-m', 'virtualenv', '--python', '/Users/ipatrikeeva/anaconda/bin/python2.7', 'py27']
+env: {'TERM_PROGRAM_VERSION': '388.1', 'CPLUS_INCLUDE_PATH': '$CPLUS_INCLUDE_PATH:/usr/include/gdal', 'LOGNAME': 'ipatrikeeva', 'USER': 'ipatrikeeva', 'HOME': '/Users/ipatrikeeva', 'PATH': '/Users/ipatrikeeva/earth-science-notebook/.tox/py27/bin:/Users/ipatrikeeva/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Library/TeX/texbin:/Users/ipatrikeeva/apache-maven-3.3.9/bin', 'DISPLAY': '/private/tmp/com.apple.launchd.vnMPqjph3p/org.macosforge.xquartz:0', 'TERM_PROGRAM': 'Apple_Terminal', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.tO13pYhjF9/Render', 'SHLVL': '1', 'XPC_FLAGS': '0x0', 'DBUS_LAUNCHD_SESSION_BUS_SOCKET': '/private/tmp/com.apple.launchd.Q0tEBs0SOQ/unix_domain_listener', 'PYTHONHASHSEED': '56845752', '_': '/Users/ipatrikeeva/anaconda/bin/tox', 'M2_HOME': '/Users/ipatrikeeva/apache-maven-3.3.9', 'TERM_SESSION_ID': 'E6E82E5C-0DDB-455D-B2BE-825D84BA8009', 'XPC_SERVICE_NAME': '0', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.qKOxFvE50y/Listeners', 'VIRTUAL_ENV': '/Users/ipatrikeeva/earth-science-notebook/.tox/py27', 'SHELL': '/bin/bash', 'TMPDIR': '/var/folders/nn/z1jjdl850ljbp54bj5p_js_h0000gp/T/', 'GDAL_DATA': '/usr/local/opt/gdal2/share/gdal/', 'OLDPWD': '/Users/ipatrikeeva/earth-science-notebook/js', '__CF_USER_TEXT_ENCODING': '0x1F6:0x0:0x0', 'PWD': '/Users/ipatrikeeva/earth-science-notebook', 'C_INCLUDE_PATH': '$C_INCLUDE_PATH:/usr/include/gdal'}
+
+New python executable in /Users/ipatrikeeva/earth-science-notebook/.tox/py27/bin/python2.7
+Also creating executable in /Users/ipatrikeeva/earth-science-notebook/.tox/py27/bin/python
+Installing setuptools, pip, wheel...
+  Complete output from command /Users/ipatrikeeva/e...x/py27/bin/python2.7 - setuptools pip wheel:
+  Traceback (most recent call last):
+  File "<stdin>", line 4, in <module>
+  File "/Users/ipatrikeeva/anaconda/lib/python2.7/tempfile.py", line 32, in <module>
+    import io as _io
+  File "/Users/ipatrikeeva/anaconda/lib/python2.7/io.py", line 51, in <module>
+    import _io
+ImportError: dlopen(/Users/ipatrikeeva/earth-science-notebook/.tox/py27/lib/python2.7/lib-dynload/_io.so, 2): Symbol not found: __PyCodecInfo_GetIncrementalDecoder
+  Referenced from: /Users/ipatrikeeva/earth-science-notebook/.tox/py27/lib/python2.7/lib-dynload/_io.so
+  Expected in: flat namespace
+ in /Users/ipatrikeeva/earth-science-notebook/.tox/py27/lib/python2.7/lib-dynload/_io.so
+----------------------------------------
+...Installing setuptools, pip, wheel...done.
+Traceback (most recent call last):
+  File "/Users/ipatrikeeva/anaconda/lib/python2.7/site-packages/virtualenv.py", line 2328, in <module>
+    main()
+  File "/Users/ipatrikeeva/anaconda/lib/python2.7/site-packages/virtualenv.py", line 713, in main
+    symlink=options.symlink)
+  File "/Users/ipatrikeeva/anaconda/lib/python2.7/site-packages/virtualenv.py", line 945, in create_environment
+    download=download,
+  File "/Users/ipatrikeeva/anaconda/lib/python2.7/site-packages/virtualenv.py", line 901, in install_wheel
+    call_subprocess(cmd, show_stdout=False, extra_env=env, stdin=SCRIPT)
+  File "/Users/ipatrikeeva/anaconda/lib/python2.7/site-packages/virtualenv.py", line 797, in call_subprocess
+    % (cmd_desc, proc.returncode))
+OSError: Command /Users/ipatrikeeva/e...x/py27/bin/python2.7 - setuptools pip wheel failed with error code 1
+Running virtualenv with interpreter /Users/ipatrikeeva/anaconda/bin/python2.7

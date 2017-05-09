@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: geonotebook
+Version: 0.0.0
+Summary: A Jupyter notebook extension for Geospatial Analysis
+Home-page: https://github.com/OpenDataAnalytics
+Author: Kitware Inc
+Author-email: chris.kotfila@kitware.com
+License: Apache License 2.0
+Description: A Jupyter notebook extension for Geospatial Analysis
+Platform: UNKNOWN

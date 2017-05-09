@@ -1,0 +1,12 @@
+futures
+promise
+ModestMaps
+rasterio
+Shapely
+requests
+ipykernel
+jupyter_client
+notebook
+fiona
+mapnik
+shapely
